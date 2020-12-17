@@ -1,13 +1,317 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+a {
+     text-decoration: none;
+     color: white;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ body {
+     margin: 0;
+     padding: 0;
+     background-color: coral;
+     background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6bcb9f6e-4d73-40fa-b677-0b3e63e3521e/d5nhuuq-79a016a3-c066-4ac1-9d1a-6ff2b79f7569.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNmJjYjlmNmUtNGQ3My00MGZhLWI2NzctMGIzZTYzZTM1MjFlXC9kNW5odXVxLTc5YTAxNmEzLWMwNjYtNGFjMS05ZDFhLTZmZjJiNzlmNzU2OS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WiO4Ln-nl5Z-DVkDYoJGqLRsg_SJIfhfgGbXfen5UAo') repeat;
+     padding-right: 20px;
+     padding-left: 20px;
+}
+ .container {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+     justify-items: center;
+     align-items: center;
+     grid-row-gap: 50px;
+     grid-column-gap: 20px;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-bottom: 50px;
+}
+ .card {
+     transition: transform 0.2s;
+     -webkit-box-shadow: 8px 8px 12px -5px rgba(0, 0, 0, 0.7);
+     box-shadow: 8px 8px 12px -5px rgba(0, 0, 0, 0.7);
+     background-color: #aaa;
+     border-radius: 10px;
+     height: 400px;
+     width: 300px;
+     transform-style: preserve-3d;
+     transition: 0.5 all;
+}
+ .card:hover {
+     cursor: pointer;
+     transform: scale(1.04);
+}
+ .card .front {
+     background: #e56399;
+     background: linear-gradient(335deg, rgba(246, 174, 45, 1) 0%, rgba(85, 221, 224, 1) 100%);
+     height: 400px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     border-radius: 9px;
+}
+ .card .front .card-img {
+     margin-top: 15px;
+     width: 250px;
+}
+ .card .front .name-con {
+     text-align: center;
+     background-color: #33658a;
+     border-radius: 0 0 8px 8px;
+     width: 100%;
+     height: 50px;
+     color: #fff;
+     font-family: roboto;
+     font-size: 24px;
+}
+ .card .front .name-con .name {
+     font-size: 24px;
+     margin-top: 8px;
+     text-transform: capitalize;
+}
+/*++++++++++ Header Styles ++++++++++*/
+ .acive {
+     color: yellow;
+}
+ .header {
+     color: white;
+     position: block;
+     width: 100%;
+     height: 50px;
+     margin-bottom: 20px;
+     font-size: 18px;
+     font-family: roboto;
+}
+ .nav-con {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+}
+ .home-con, .all-con {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+ .home-con:hover {
+     font-size: 19px;
+     background-color: #de8a5d;
+     cursor: pointer;
+}
+ .all-con:hover {
+     font-size: 19px;
+     background-color: #0095a3;
+     cursor: pointer;
+}
+ .home, .all {
+     font-family: 'Scada', sans-serif;
+     font-size: 18px;
+     color: white;
+     letter-spacing: 1.5px;
+     text-shadow: #000 2px 0px 0px, #000 1.75517px 0.958851px 0px, #000 1.0806px 1.68294px 0px, #000 0.141474px 1.99499px 0px, #000 -0.832294px 1.81859px 0px, #000 -1.60229px 1.19694px 0px, #000 -1.97998px 0.28224px 0px, #000 -1.87291px -0.701566px 0px, #000 -1.30729px -1.5136px 0px, #000 -0.421592px -1.95506px 0px, #000 0.567324px -1.91785px 0px, #000 1.41734px -1.41108px 0px, #000 1.92034px -0.558831px 0px;
+     text-shadow: #000 1px 0px 0px, #000 0.540302px 0.841471px 0px, #000 -0.416147px 0.909297px 0px, #000 -0.989992px 0.14112px 0px, #000 -0.653644px -0.756802px 0px, #000 0.283662px -0.958924px 0px, #000 0.96017px -0.279415px 0px;
+     font-weight: 500;
+}
+ .home-con {
+     margin-right: 15px;
+     transition: 0.2s all;
+     width: 50%;
+     height: 50px;
+     background-color: #f7a072;
+     text-align: center;
+     border-radius: 0 0 10px 10px;
+}
+ .all-con {
+     border-radius: 0, 0, 100px, 100px;
+     margin-left: 15px;
+     transition: 0.2s all;
+     width: 50%;
+     height: 50px;
+     background-color: #0fa3b1;
+     text-align: center;
+     border-radius: 0 0 10px 10px;
+}
+/*------------ List All Pokemons Styles ---------------*/
+ .loading {
+     font-family: 'Scada', sans-serif;
+     font-size: 36px;
+}
+ .main-title {
+     margin: 0;
+     text-align: center;
+     font-family: 'Scada', sans-serif;
+     font-size: 48px;
+     letter-spacing: 3px;
+     color: #fff;
+     text-transform: capitalize;
+}
+ .divider {
+     margin-top: 20px;
+     margin-bottom: 30px;
+     border-top: 1px solid #8c8b8b;
+}
+ .pokemon-list {
+     margin: 0;
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     justify-items: center;
+     align-items: center;
+     grid-row-gap: 60px;
+     grid-column-gap: 40px;
+     margin-bottom: 30px;
+     padding-inline-start: 0px;
+}
+ .pokemon-list-item-container {
+    display: inline;
+    padding: 5px;
+    background-color: lightcoral;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+ }
+ .pokemon-list-item-container:hover {
+    cursor: pointer;
+    background-color: coral;
+ }
+ .pokemon-list-item {
+     margin: 0;
+     list-style-type: none;
+     font-family: 'Scada', sans-serif;
+     font-size: 24px;
+     color: white;
+     text-transform: capitalize;
+}
+/*############### Single Pokemon Page ##################*/
+ .single-container {
+     width: 100%;
+     display: flex;
+     margin-bottom: 30px;
+}
+ @media only screen and (min-device-width: 320px) and (max-device-width: 640px) and (orientation: portrait) {
+     .wrapper {
+         display: flex;
+         justify-content: center;
+    }
+     .single-container {
+         width: 301px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         align-content: center;
+    }
+     .pokemon-ico {
+         display: flex;
+         flex-direction: column;
+         margin-top: 40px;
+         font-family: Roboto;
+         font-size: 20px;
+         width: 300px;
+    }
+     .pokemon-ico-item {
+         display: grid;
+         grid-template-columns: 1fr 2fr;
+         grid-column-gap: 40px;
+         margin-bottom: 10px;
+    }
+     .pokemon-ico-item {
+         display: flex;
+         justify-content: space-between;
+         margin-bottom: 10px;
+    }
+     #one {
+         margin-left: 4px;
+    }
+     .fa-arrows-alt-v {
+         margin-right: 7px;
+    }
+     .pokemon-ico-item-con {
+         display: flex;
+         align-items: flex-start;
+    }
+     .pokemon-ico-item-icon {
+         color: #424242;
+    }
+     .pokemon-ico-item-sign {
+         margin-left: 7px;
+    }
+     .pokemon-ico-item-value {
+         text-transform: capitalize;
+    }
+     .type {
+         margin-bottom: 35px;
+    }
+     .attack {
+         margin-left: 1px;
+    }
+     .sp-attack {
+         margin-left: -3px;
+    }
+     .speed {
+         margin-left: 3px;
+         margin-bottom: 35px;
+    }
+     .att {
+         padding-left: 2px;
+    }
+     .items-con {
+         align-self: flex-start;
+         display: flex;
+         flex-direction: column;
+         justify-content: flex-start;
+         align-items: flex-start;
+         font-family: Roboto;
+         margin-bottom: 25px;
+    }
+     .items-title {
+         font-weight: 500;
+         display: block;
+         color: #424242;
+         font-size: 22px;
+         text-align: center;
+         margin-bottom: 10px;
+    }
+     .item {
+         display: block;
+         color: #212121;
+         font-size: 20px;
+         text-transform: capitalize;
+         margin-bottom: 5px;
+    }
+     .abilities-con {
+         align-self: flex-start;
+         display: flex;
+         flex-direction: column;
+         justify-content: flex-start;
+         align-items: flex-start;
+         font-family: Roboto;
+    }
+     .abilities-title {
+         font-weight: 500;
+         display: block;
+         color: #424242;
+         font-size: 22px;
+         text-align: center;
+         margin-bottom: 10px;
+    }
+     .abilities {
+         display: block;
+         color: #212121;
+         font-size: 20px;
+         text-transform: capitalize;
+         margin-bottom: 5px;
+    }
+}
+/* Prevent Hover Effect on single page */
+ .card-no-hover:hover {
+     transform: scale(1);
+     cursor: default;
+}
+/*@media screen and (min-device-width: 640px) {
+     .single-container {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+    }
+}
+*/
+/* ADD STROKE TO TITLE */
+ .main-title {
+     text-shadow: 0 -3px 0 #000, 0 -3px 0 #000, 0 3px 0 #000, 0 3px 0 #000, -3px 0 0 #000, 3px 0 0 #000, -3px 0 0 #000, 3px 0 0 #000, -1px -3px 0 #000, 1px -3px 0 #000, -1px 3px 0 #000, 1px 3px 0 #000, -3px -1px 0 #000, 3px -1px 0 #000, -3px 1px 0 #000, 3px 1px 0 #000, -2px -3px 0 #000, 2px -3px 0 #000, -2px 3px 0 #000, 2px 3px 0 #000, -3px -2px 0 #000, 3px -2px 0 #000, -3px 2px 0 #000, 3px 2px 0 #000, -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000, -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
 }
