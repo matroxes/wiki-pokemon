@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/wiki-pokemon/static/css/main.84e352cf.chunk.css",
-    "main.js": "/wiki-pokemon/static/js/main.632fe016.chunk.js",
-    "main.js.map": "/wiki-pokemon/static/js/main.632fe016.chunk.js.map",
-    "runtime-main.js": "/wiki-pokemon/static/js/runtime-main.58deb71f.js",
-    "runtime-main.js.map": "/wiki-pokemon/static/js/runtime-main.58deb71f.js.map",
-    "static/js/2.181669ab.chunk.js": "/wiki-pokemon/static/js/2.181669ab.chunk.js",
-    "static/js/2.181669ab.chunk.js.map": "/wiki-pokemon/static/js/2.181669ab.chunk.js.map",
-    "index.html": "/wiki-pokemon/index.html",
-    "static/css/main.84e352cf.chunk.css.map": "/wiki-pokemon/static/css/main.84e352cf.chunk.css.map",
-    "static/js/2.181669ab.chunk.js.LICENSE.txt": "/wiki-pokemon/static/js/2.181669ab.chunk.js.LICENSE.txt",
-    "static/media/no-pokemon.3a5b1bd5.png": "/wiki-pokemon/static/media/no-pokemon.3a5b1bd5.png"
+    "main.css": "/static/css/main.84e352cf.chunk.css",
+    "main.js": "/static/js/main.632fe016.chunk.js",
+    "main.js.map": "/static/js/main.632fe016.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cdad1108.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cdad1108.js.map",
+    "static/js/2.181669ab.chunk.js": "/static/js/2.181669ab.chunk.js",
+    "static/js/2.181669ab.chunk.js.map": "/static/js/2.181669ab.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.84e352cf.chunk.css.map": "/static/css/main.84e352cf.chunk.css.map",
+    "static/js/2.181669ab.chunk.js.LICENSE.txt": "/static/js/2.181669ab.chunk.js.LICENSE.txt",
+    "static/media/no-pokemon.3a5b1bd5.png": "/static/media/no-pokemon.3a5b1bd5.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.58deb71f.js",
+    "static/js/runtime-main.cdad1108.js",
     "static/js/2.181669ab.chunk.js",
     "static/css/main.84e352cf.chunk.css",
     "static/js/main.632fe016.chunk.js"
