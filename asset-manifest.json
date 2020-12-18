@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.84e352cf.chunk.css",
-    "main.js": "/static/js/main.632fe016.chunk.js",
-    "main.js.map": "/static/js/main.632fe016.chunk.js.map",
+    "main.js": "/static/js/main.a68dcd60.chunk.js",
+    "main.js.map": "/static/js/main.a68dcd60.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cdad1108.js",
     "runtime-main.js.map": "/static/js/runtime-main.cdad1108.js.map",
-    "static/js/2.181669ab.chunk.js": "/static/js/2.181669ab.chunk.js",
-    "static/js/2.181669ab.chunk.js.map": "/static/js/2.181669ab.chunk.js.map",
+    "static/js/2.339e709f.chunk.js": "/static/js/2.339e709f.chunk.js",
+    "static/js/2.339e709f.chunk.js.map": "/static/js/2.339e709f.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.84e352cf.chunk.css.map": "/static/css/main.84e352cf.chunk.css.map",
-    "static/js/2.181669ab.chunk.js.LICENSE.txt": "/static/js/2.181669ab.chunk.js.LICENSE.txt",
+    "static/js/2.339e709f.chunk.js.LICENSE.txt": "/static/js/2.339e709f.chunk.js.LICENSE.txt",
     "static/media/no-pokemon.3a5b1bd5.png": "/static/media/no-pokemon.3a5b1bd5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cdad1108.js",
-    "static/js/2.181669ab.chunk.js",
+    "static/js/2.339e709f.chunk.js",
     "static/css/main.84e352cf.chunk.css",
-    "static/js/main.632fe016.chunk.js"
+    "static/js/main.a68dcd60.chunk.js"
   ]
 }
