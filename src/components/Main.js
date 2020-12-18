@@ -15,7 +15,6 @@ function Main() {
         <h2 className="main-title">Главная</h2>
         <hr className="divider"/>
             <div className="container">
-
                 <div className="card">
                     <Link to="name/pikachu">
                         <div className="front">
