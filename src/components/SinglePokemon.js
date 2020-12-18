@@ -156,7 +156,7 @@ function SinglePokemon() {
             {(fetchPokemon.data.items.length > 0) && (
                 <div className="items-con">
                     <div class="items-title">Держимые предметы</div>
-                    { fetchPokemon.data.items.map((element) => <div class="item">{element}</div>)}
+                    { fetchPokemon.data.items.map((element) => <div className="item">{element}</div>)}
                 </div>
             )}
 

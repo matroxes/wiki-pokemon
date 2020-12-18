@@ -7,6 +7,8 @@ a {
      padding: 0;
      background-color: coral;
      background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6bcb9f6e-4d73-40fa-b677-0b3e63e3521e/d5nhuuq-79a016a3-c066-4ac1-9d1a-6ff2b79f7569.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNmJjYjlmNmUtNGQ3My00MGZhLWI2NzctMGIzZTYzZTM1MjFlXC9kNW5odXVxLTc5YTAxNmEzLWMwNjYtNGFjMS05ZDFhLTZmZjJiNzlmNzU2OS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WiO4Ln-nl5Z-DVkDYoJGqLRsg_SJIfhfgGbXfen5UAo') repeat;
+     padding-right: 20px;
+     padding-left: 20px;
 }
  .container {
      display: grid;
@@ -30,6 +32,12 @@ a {
      transform-style: preserve-3d;
      transition: 0.5 all;
 }
+@media only screen and (max-device-width: 360px) {
+     .card {
+        width: 250px;
+     }
+}
+
  .card:hover {
      cursor: pointer;
      transform: scale(1.04);
