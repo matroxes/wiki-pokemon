@@ -5,7 +5,7 @@ function Card(props) {
     <>
     <div className="card card-no-hover">
         <div className="front">
-            <img className="card-img"  src={props.link}/>
+            <img className="card-img" alt="Pokemon" src={props.link}/>
             <div className="name-con">
                 <div className="name">{props.name}</div>
             </div>

@@ -73,13 +73,15 @@ function SinglePokemon() {
   }, [])
 
   return (
-    <>
+    <div id="loading-container">
     <h2 className="main-title">{pokemonName}</h2>
       <hr className="divider"/>
     {
     fetchPokemon.loading ? <h1 className="loading">Загрузка</h1> : (
     <div className="wrapper">
         <div className="single-container">
+          <div className="card-items-container">
+
             <Card name={pokemonName} link={fetchPokemon.data.img} />
 
             <div className="pokemon-ico">
@@ -97,7 +99,7 @@ function SinglePokemon() {
                     </div>
                     <div className="pokemon-ico-item-value">{fetchPokemon.data.weight}</div>
                 </div>
-                <div className="type pokemon-ico-item ">
+                <div className="type pokemon-ico-item">
                     <div className="pokemon-ico-item-con">
                         <i className="fas fa-paw pokemon-ico-item-icon"></i>
                         <div className="pokemon-ico-item-sign">Тип</div>
@@ -152,27 +154,30 @@ function SinglePokemon() {
                 </div>
 
             </div>
+          </div>
 
-            {(fetchPokemon.data.items.length > 0) && (
-                <div className="items-con">
-                    <div class="items-title">Держимые предметы</div>
-                    { fetchPokemon.data.items.map((element) => <div className="item">{element}</div>)}
-                </div>
-            )}
+                <div className="item-abilities-container">
+                    {(fetchPokemon.data.items.length > 0) && (
+                        <div className="items-con">
+                            <div className="items-title">Держимые предметы</div>
+                            { fetchPokemon.data.items.map((element) => <div key={element} className="item">{element}</div>)}
+                        </div>
+                    )}
 
-            {(fetchPokemon.data.abilities.length > 0) && (
-                <div className="abilities-con">
-                    <div className="abilities-title">Способности</div>
-                    { fetchPokemon.data.abilities.map((element) => <div className="item">{element}</div>)}
+                    {(fetchPokemon.data.abilities.length > 0) && (
+                        <div className="abilities-con">
+                            <div className="abilities-title">Способности</div>
+                            { fetchPokemon.data.abilities.map((element) => <div key={element} className="item">{element}</div>)}
+                        </div>
+                    )}
                 </div>
-            )}
 
             </div>
         </div>
       )
     }
 
-    </>
+    </div>
   )
 }
 

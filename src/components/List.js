@@ -1,10 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import {  Link  } from "react-router-dom";
 import axios from 'axios'
 
 function List() {
@@ -39,9 +34,9 @@ function List() {
     <ul className="pokemon-list">
       {
         fetchParams.loading ? <h1 className="loading">Загрузка</h1> : (
-            fetchParams.data ? (fetchParams.data.map((item) => (<div className="pokemon-list-item-container" key={item.name}>
-               <Link className="pokemon-list-item" to={"/name/" + item.name} >{item.name}</Link>
-            </div>)))
+            fetchParams.data ? (fetchParams.data.map((item) => (<Link className="pokemon-list-item-container" key={item.name} to={"/name/" + item.name}>
+               <div className="pokemon-list-item" >{item.name}</div>
+            </Link>)))
              : <h2>Упс! Что-то пошло не так...</h2>
           )
       }
