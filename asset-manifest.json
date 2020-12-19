@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wiki-pokemon/static/css/main.84e352cf.chunk.css",
-    "main.js": "/wiki-pokemon/static/js/main.7eed4542.chunk.js",
-    "main.js.map": "/wiki-pokemon/static/js/main.7eed4542.chunk.js.map",
+    "main.js": "/wiki-pokemon/static/js/main.053bc870.chunk.js",
+    "main.js.map": "/wiki-pokemon/static/js/main.053bc870.chunk.js.map",
     "runtime-main.js": "/wiki-pokemon/static/js/runtime-main.58deb71f.js",
     "runtime-main.js.map": "/wiki-pokemon/static/js/runtime-main.58deb71f.js.map",
     "static/js/2.bc9a54dc.chunk.js": "/wiki-pokemon/static/js/2.bc9a54dc.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.58deb71f.js",
     "static/js/2.bc9a54dc.chunk.js",
     "static/css/main.84e352cf.chunk.css",
-    "static/js/main.7eed4542.chunk.js"
+    "static/js/main.053bc870.chunk.js"
   ]
 }
