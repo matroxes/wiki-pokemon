@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/wiki-pokemon/static/css/main.a7e37c44.chunk.css",
+    "main.css": "/wiki-pokemon/static/css/main.92a6e154.chunk.css",
     "main.js": "/wiki-pokemon/static/js/main.51c57835.chunk.js",
     "main.js.map": "/wiki-pokemon/static/js/main.51c57835.chunk.js.map",
     "runtime-main.js": "/wiki-pokemon/static/js/runtime-main.58deb71f.js",
@@ -8,7 +8,7 @@
     "static/js/2.5ac9a9ce.chunk.js": "/wiki-pokemon/static/js/2.5ac9a9ce.chunk.js",
     "static/js/2.5ac9a9ce.chunk.js.map": "/wiki-pokemon/static/js/2.5ac9a9ce.chunk.js.map",
     "index.html": "/wiki-pokemon/index.html",
-    "static/css/main.a7e37c44.chunk.css.map": "/wiki-pokemon/static/css/main.a7e37c44.chunk.css.map",
+    "static/css/main.92a6e154.chunk.css.map": "/wiki-pokemon/static/css/main.92a6e154.chunk.css.map",
     "static/js/2.5ac9a9ce.chunk.js.LICENSE.txt": "/wiki-pokemon/static/js/2.5ac9a9ce.chunk.js.LICENSE.txt",
     "static/media/index.css": "/wiki-pokemon/static/media/bg.95b593a6.jpg",
     "static/media/no-pokemon.3a5b1bd5.png": "/wiki-pokemon/static/media/no-pokemon.3a5b1bd5.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.58deb71f.js",
     "static/js/2.5ac9a9ce.chunk.js",
-    "static/css/main.a7e37c44.chunk.css",
+    "static/css/main.92a6e154.chunk.css",
     "static/js/main.51c57835.chunk.js"
   ]
 }
